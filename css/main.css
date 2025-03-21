@@ -1,0 +1,31 @@
+@import url("bootstrap.min.css");
+@import url("stylemain.css");
+@import url("fonts.css");
+.zalo-chat-widget {
+  bottom: 23px !important;
+  right: 84px !important;
+}
+
+.chat-mes{
+    width: 60px;
+    height: 60px;
+    min-height: 0;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(102, 102, 102, .4);
+    cursor: pointer;
+    z-index: 9000000;
+    background-color: #3498db;
+    background-position: center center;
+    background-image: #3498db center center url(https://chat.bizmac.io/livehelp/images/MobileButtonLight.png) no-repeat;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA3Mi45IDg2LjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDcyLjkgODYuNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQoJLnN0MXtmaWxsOiNGRkZGRkY7ZW5hYmxlLWJhY2tncm91bmQ6bmV3ICAgIDt9Cjwvc3R5bGU+CjxnIGlkPSJYTUxJRF8yXyI+Cgk8Zz4KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNjYsNjUuN2MtMC4yLDEtMC4xLDMuNywwLjMsNi41YzMuNy01LDYtMTEuMSw2LjYtMTcuN0M3MS4zLDU4LjUsNjksNjIuMyw2Niw2NS43eiIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik02Miw3OC41Yy00LjItMS41LTguOC0yLjctMTAuMi0yLjZjLTQuNywxLjktOS42LDIuOS0xNC43LDIuOWMtMTQsMC0yNi4yLTcuNS0zMi45LTE4LjYKCQkJQzgsNzUuMywyMS43LDg2LjYsMzgsODYuNmM0LjgsMCw5LjQtMSwxMy42LTIuN2MyLjUtMSwxMi42LDIuNiwxMi42LDIuNnMtMC43LTQuMS0wLjgtNy40TDYyLDc4LjV6Ii8+Cgk8L2c+Cgk8cGF0aCBpZD0iWE1MSURfM18iIGNsYXNzPSJzdDEiIGQ9Ik02OS45LDM0LjljMCw5LTMuNCwxNy4xLTguOSwyMy4zYy0xLjcsMS45LDAuMSwxMS41LDAuMSwxMS41UzUxLDY2LjEsNDguNSw2Ny4yCgkJYy00LjIsMS44LTguOCwyLjctMTMuNiwyLjdjLTE5LjMsMC0zNS0xNS43LTM1LTM1UzE1LjcsMCwzNSwwUzY5LjksMTUuNiw2OS45LDM0Ljl6Ii8+CjwvZz4KPC9zdmc+Cg==), none;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: fixed;
+    right:10px;
+    bottom: 24px;
+    
+}
