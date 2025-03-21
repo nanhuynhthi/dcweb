@@ -9085,6 +9085,10 @@ ul.pack {
   color: #F25C00;
 }
 
+.style2cel-intro .text-right p {
+  padding: 10px 20px;
+}
+
 .text-space {
   letter-spacing: 2px;
 }
