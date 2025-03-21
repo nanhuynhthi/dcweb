@@ -9093,6 +9093,11 @@ ul.pack {
   font-size: 15px;
   padding: 10px 20px;
 }
+@media (max-width: 767px) {
+  .style2cel-intro .text-right p {
+    padding: 1px 20px 10px;
+  }
+}
 
 .text-space {
   letter-spacing: 2px;
