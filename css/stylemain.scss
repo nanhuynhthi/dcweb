@@ -5019,7 +5019,7 @@ a:focus {
 }
 
 .section-contain {
-  background-image: url(skin/bg-white50.png), url(skin/swirl-final4.png);
+  background-image: url(bngico/bg-white50.png), url(bngico/swirl-final4.png);
   background-position: 0 0, 50% bottom;
   background-repeat: repeat, no-repeat;
   padding-top: 25px;
@@ -5041,7 +5041,7 @@ a:focus {
 
 .containEditable {
   padding: 40px 0 15px;
-  background-image: url(skin/bg-white50.png), url(skin/swirl-final4.png);
+  background-image: url(bngico/bg-white50.png), url(bngico/swirl-final4.png);
   background-position: 0 0, center bottom;
   background-repeat: repeat, no-repeat;
   min-height: 600px;
@@ -5116,7 +5116,7 @@ textarea:focus {
 }
 
 select {
-  background: url(skin/icon-dropdown.png) no-repeat 93% center;
+  background: url(bngico/icon-dropdown.png) no-repeat 93% center;
 }
 
 .block-wide,
@@ -6520,7 +6520,7 @@ header.affix {
     left: 0;
     right: 0;
     margin: auto;
-    background: url(skin/product_menu.png) no-repeat 50% bottom;
+    background: url(bngico/product_menu.png) no-repeat 50% bottom;
     pointer-events: none;
   }
 }
@@ -6654,7 +6654,7 @@ header.affix {
   width: 120px;
   height: 26px;
   margin: 0 auto;
-  background: url(skin/dotlist.png) no-repeat center 0;
+  background: url(bngico/dotlist.png) no-repeat center 0;
 }
 
 .dot-vn {
@@ -7258,8 +7258,8 @@ header.affix {
 }
 
 footer {
-  /* background: url("skin/footer_menu.jpg") no-repeat 50% 0px,
-    url("skin/footer_bg.jpg") repeat-x 0 0; */
+  /* background: url("bngico/footer_menu.jpg") no-repeat 50% 0px,
+    url("bngico/footer_bg.jpg") repeat-x 0 0; */
   background-color: #343a40;
   color: #fff;
   position: relative;
@@ -7592,7 +7592,7 @@ footer .head-footer>.container::after {
 
 .copyr>.container {
   padding: 10px 15px 15px;
-  background: url(skin/line-ft.png) no-repeat 50% 0;
+  background: url(bngico/line-ft.png) no-repeat 50% 0;
 }
 
 .copyr a {
@@ -8273,6 +8273,17 @@ footer .head-footer>.container::after {
   margin-bottom: 30px;
 }
 
+.icon-medium {
+  font-size: 90px;
+  line-height: 90px;
+  color: #0066cc;
+
+  @media (max-width: 767px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
 .feat-block:before,
 .feat-block:after {
   display: table;
@@ -8523,7 +8534,7 @@ footer .head-footer>.container::after {
 }
 
 .list-history .block.border {
-  background: url(skin/line-row.png) no-repeat center top;
+  background: url(bngico/line-row.png) no-repeat center top;
 }
 
 .year-contain,
@@ -8618,7 +8629,7 @@ footer .head-footer>.container::after {
 }
 
 .box-shadows {
-  background: #fff url(skin/newsboard_bottom.png) no-repeat left 0;
+  background: #fff url(bngico/newsboard_bottom.png) no-repeat left 0;
   height: 10px;
 }
 
@@ -8814,7 +8825,7 @@ textarea {
   right: 0;
   bottom: -12px;
   height: 15px;
-  background: url(skin/product_menu.png) no-repeat center bottom;
+  background: url(bngico/product_menu.png) no-repeat center bottom;
   background-size: 110% auto;
 }
 
@@ -9014,7 +9025,7 @@ textarea {
 
 .news-slide .container {
   padding: 10px 15px;
-  background: url(skin/line-grey.png) no-repeat center bottom;
+  background: url(bngico/line-grey.png) no-repeat center bottom;
 }
 
 .news-slide .title,
@@ -9098,7 +9109,7 @@ textarea {
 }
 
 .blog-list {
-  background: url(skin/timeline.png) repeat-y center top;
+  background: url(bngico/timeline.png) repeat-y center top;
   padding-top: 25px;
   padding-bottom: 30px;
   width: 100%;
@@ -9130,7 +9141,7 @@ textarea {
 
 .post .date_wrapper {
   position: absolute;
-  background: transparent url("skin/timeline_date.png") repeat-x left center;
+  background: transparent url("bngico/timeline_date.png") repeat-x left center;
   width: 103px;
 }
 
@@ -10305,7 +10316,7 @@ h5,
 
 .block-history {
   text-align: center;
-  background: #ededed url("skin/images/bg-history.png") repeat-x center top;
+  background: #ededed url("bngico/images/bg-history.png") repeat-x center top;
   padding-top: 205px;
 }
 
@@ -10479,7 +10490,7 @@ h5,
   height: 30px;
   border-radius: 20px;
   z-index: 500;
-  background: rgba(0, 0, 0, 0.15) url(skin/icon/icon_close_black.png) no-repeat center center;
+  background: rgba(0, 0, 0, 0.15) url(bngico/icon/icon_close_black.png) no-repeat center center;
   background-size: 10px auto;
   opacity: 0.6;
   cursor: pointer;
@@ -11588,7 +11599,7 @@ ul.pack {
 }
 
 .indicator {
-  background: url(skin/igreen.png) no-repeat center center;
+  background: url(bngico/igreen.png) no-repeat center center;
   width: 32px;
   height: 25px;
   display: inline-block;
@@ -12378,32 +12389,33 @@ ul.pack {
   left: 0;
   width: 48px;
   height: 48px;
-  background: url(skin/icon/icon-web.png) no-repeat 0 center;
+  font-size: 40px;
+  line-height: 40px;
 }
 
-.service_box .ios1 {
-  background-position: 0 center;
-}
+// .service_box .ios1 {
+//   background-position: 0 center;
+// }
 
-.service_box .ios2 {
-  background-position: -51px center;
-}
+// .service_box .ios2 {
+//   background-position: -51px center;
+// }
 
-.service_box .ios3 {
-  background-position: -251px center;
-}
+// .service_box .ios3 {
+//   background-position: -251px center;
+// }
 
-.service_box .ios4 {
-  background-position: -101px center;
-}
+// .service_box .ios4 {
+//   background-position: -101px center;
+// }
 
-.service_box .ios5 {
-  background-position: -151px center;
-}
+// .service_box .ios5 {
+//   background-position: -151px center;
+// }
 
-.service_box .ios6 {
-  background-position: -201px center;
-}
+// .service_box .ios6 {
+//   background-position: -201px center;
+// }
 
 .heading_dash {
   text-transform: uppercase;
@@ -12960,7 +12972,7 @@ ul.pack {
 .row-fluid .shadow {
   display: block;
   height: 9px;
-  background: url(skin/newsboard_bottom.png) no-repeat left bottom;
+  background: url(bngico/newsboard_bottom.png) no-repeat left bottom;
   width: 100%;
 }
 
@@ -15272,7 +15284,7 @@ ul.pack {
 }
 
 .bg-shape {
-  background: url("skin/icon/background-shape.svg") no-repeat right 36%;
+  background: url("bngico/icon/background-shape.svg") no-repeat right 36%;
   position: absolute;
   top: -90px;
   right: 0;
@@ -17029,7 +17041,7 @@ button.btn-md {
 
 .table-package .indicator,
 .table-pricing-orel .indicator {
-  background: url(skin/igreen.png) no-repeat center center;
+  background: url(bngico/igreen.png) no-repeat center center;
   width: 32px;
   height: 25px;
   display: inline-block;
@@ -17260,7 +17272,7 @@ button.btn-md {
 }
 
 .table-pricing-barel tbody .indicator {
-  background: url(skin/igreen.png) no-repeat center center;
+  background: url(bngico/igreen.png) no-repeat center center;
   width: 32px;
   height: 25px;
   display: inline-block;
@@ -19977,7 +19989,7 @@ button.btn-md {
   position: absolute;
   right: -42px;
   bottom: 20px;
-  background-image: url('skin/home-v2-shape.png');
+  background-image: url('bngico/home-v2-shape.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   z-index: 0;
