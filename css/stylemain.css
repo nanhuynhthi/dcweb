@@ -1726,8 +1726,8 @@ header ul,
 header ol,
 footer ul,
 footer ol,
-.biz-navigate ul,
-.biz-navigate ol {
+.dcweb-navigate ul,
+.dcweb-navigate ol {
   list-style: none;
 }
 
@@ -3373,14 +3373,14 @@ header.affix {
     font-size: 10px;
   }
 }
-.biz-navigate {
+.dcweb-navigate {
   width: 100%;
   background: #f7f7f7;
   position: relative;
   z-index: 10;
 }
 
-.biz-navigate:before {
+.dcweb-navigate:before {
   content: "";
   position: absolute;
   left: 0;
@@ -3475,7 +3475,7 @@ header.affix {
 }
 
 @media (max-width: 1199px) {
-  .biz-navigate {
+  .dcweb-navigate {
     width: auto;
     margin: 0 -10px;
   }
@@ -3506,11 +3506,11 @@ header.affix {
   }
 }
 @media (max-width: 767px) {
-  .biz-navigate {
+  .dcweb-navigate {
     margin: 0;
   }
-  .biz-navigate,
-  .biz-navigate:after {
+  .dcweb-navigate,
+  .dcweb-navigate:after {
     background: none;
   }
   .tabMenu a .fa.fa-angle-down {
@@ -3539,7 +3539,7 @@ header.affix {
     font-size: 17px;
     padding-right: 7px;
   }
-  .biz-navbar {
+  .dcweb-navbar {
     background: #999;
     border-radius: 4px;
     overflow: hidden;
@@ -3561,7 +3561,7 @@ header.affix {
   .tabMenu li:not(:last-child) {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
-  .biz-navigate:before,
+  .dcweb-navigate:before,
   .tabMenu a:before,
   .tabMenu a:after {
     display: none;
@@ -3801,10 +3801,10 @@ header.affix {
 }
 
 @media screen and (min-width: 768px) {
-  .biz-navigate {
+  .dcweb-navigate {
     z-index: 201;
   }
-  .biz-navigate.affix {
+  .dcweb-navigate.affix {
     position: fixed;
     top: 70px;
     left: 0;
@@ -3922,7 +3922,7 @@ header.affix {
   }
 }
 @media (max-width: 767px) {
-  .biz-navigate {
+  .dcweb-navigate {
     border: 0;
     position: static;
     padding-top: 15px;
@@ -5038,7 +5038,7 @@ footer .head-footer > .container::after {
 }
 
 @media (max-width: 767px) {
-  .subpage .biz-navigate {
+  .subpage .dcweb-navigate {
     display: none !important;
   }
   .navbar-mobile,
